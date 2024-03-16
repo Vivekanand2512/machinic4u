@@ -3,7 +3,7 @@ import React from "react";
 
 const ChooseUs=()=>{
     return(
-         <div className="mx-auto max-w-7xl py-40 px-6">
+         <div className="mx-auto max-w-7xl pb-10 px-6">
                 <div className="container mx-auto">
                     <div className="text-center">
                         <h4 className="font-bold text-3xl">

@@ -18,6 +18,7 @@ const navigation = [
     },
     { name: 'About us', href: '/About-us', current: false },
     { name: 'Contact Us', href: '/Contact-us', current: false},
+    {name:"+91 8863886860" ,href:"tel:-+8863886860",current:false}
 ];
 
 
@@ -46,8 +47,7 @@ const Data = () => {
                             </Link>
                         ))}
                         <div className="mt-4"></div>
-                        <button className='flex justify-center text-base w-full font-medium rounded-full bg-bgpink text-pink py-3 px-4 lg:px-8 navbutton hover:text-white'>Sign in</button>
-                        <button className='flex justify-center text-base w-full font-medium rounded-full bg-transparent border border-bgpink text-pink py-3 px-4 lg:px-8 navbutton hover:text-white hover:bg-pink'>Contact us</button>
+                       
 
                         {/* <Contactusform /> */}
                     </div>
