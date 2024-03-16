@@ -84,6 +84,13 @@ html:not([data-scroll="0"]) .navbar2 {
   justify-content: center;
   align-items: center;
 }
+  ul a{
+  text-decoration: none;
+  color: black;
+}
+.navchild:hover + .subchild{
+  display: block;
+}
 /* 
 .hover-underline:after {
   content: "";
