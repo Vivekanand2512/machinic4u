@@ -67,15 +67,15 @@ const Navbar2 = () => {
                                             key={item.name}
                                             href={item.href}
                                             className={classNames(
-                                                item.current ? 'bg-black' : `navlinks hover:opacity-100 ${item?.sublinks!=undefined ? "dropdown-toggle":'' }`,
-                                                `px-3 py-4 rounded-md text-lg font-normal opacity-50 hover:text-black space-links ${item?.sublinks!=undefined?"dropdown-toggle":'' }`
+                                                item.current ? 'bg-black' : `navlinks hover:opacity-100 ${item?.sublinks!=undefined ? "dropdown-toggle navchild":'' }`,
+                                                "px-3 py-4 rounded-md text-lg font-normal opacity-50 space-links"
                                             )}
                                             aria-current={item.href ? 'page' : undefined}
                                         >
                                             {item.name}
                                         </Link>
                                         {item.sublinks && (
-                                            <div className="absolute top-full left-0 bg-white shadow-lg p-2 mt-1 rounded-md hidden group-hover:block">
+                                            <div className="absolute top-full left-0 bg-white shadow-lg p-2 mt-1 rounded-md hidden subchild">
                                                 {item.sublinks.map((sublink) => (
                                                     <Link key={sublink.name} href={sublink.href}
                                                          className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded-md">

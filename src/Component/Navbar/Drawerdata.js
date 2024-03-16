@@ -4,12 +4,22 @@ import Link from "next/link";
 
 
 
-const navigation= [
-    { name: 'Home', href: '#home-section', current: false },
-    { name: 'About us', href: '#about-section', current: false },
-    { name: 'Recipe', href: '#cook-section', current: false },
-    { name: 'Gallery', href: '#gallery-section', current: false },
-]
+const navigation = [
+    { name: 'Home', href: '/', current: false },
+    { 
+        name: 'Services', 
+        href: '/', 
+        current: false, 
+        sublinks: [
+            { name: 'Service 1', href: '/service-1',current:false },
+            { name: 'Service 2', href: '/service-2',current:false },
+            // Add more services as needed
+        ] 
+    },
+    { name: 'About us', href: '/About-us', current: false },
+    { name: 'Contact Us', href: '/Contact-us', current: false},
+];
+
 
 
 function classNames(...classes) {
