@@ -16,7 +16,7 @@ const ContactUs = () => {
     return (
 
         <div className="row mx-auto max-w-7xl py-10 px-6">
-            <div className="col-md-6 col-sm-12 rounded-lg shadow-lg p-4">
+            <div className="col-md-6 col-sm-12 mb-4 rounded-lg shadow-lg p-4">
                 <h2 className="font-bold text-center">Request a Free Estimate</h2>
                 <div className="p-3">
                     <p> “Our Expert Mechanics working 24*7 to Update your Bikes and car Ignoring squealing brakes is not good, as less responsive brakes can even lead to severe accidents”.</p>

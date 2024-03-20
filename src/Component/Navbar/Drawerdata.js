@@ -11,7 +11,7 @@ const navigation = [
         href: '/', 
         current: false, 
         sublinks: [
-            { name: 'Service 1', href: '/service-1',current:false },
+            { name: 'Ac-Repair', href: '/Ac-Repair',current:false },
             { name: 'Service 2', href: '/service-2',current:false },
             // Add more services as needed
         ] 
@@ -45,6 +45,7 @@ const Data = () => {
                             >
                                 {item.name}
                             </Link>
+                            
                         ))}
                         <div className="mt-4"></div>
                        

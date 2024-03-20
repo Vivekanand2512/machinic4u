@@ -14,10 +14,10 @@ const navigation = [
     { name: 'Home', href: '/', current: false },
     { 
         name: 'Services', 
-        href: '/', 
+        href: '', 
         current: false, 
         sublinks: [
-            { name: 'Service 1', href: '/service-1',current:false },
+            { name: 'Ac-Repair', href: '/Ac-Repair',current:false },
             { name: 'Service 2', href: '/service-2',current:false },
             // Add more services as needed
         ] 
@@ -62,13 +62,13 @@ const Navbar2 = () => {
                             <div className="hidden lg:flex items-center border-right ">
                                 <div className="flex justify-end space-x-4">
                                     {navigation.map((item) => (
-                                         <div key={item.name} className="relative">
+                                         <div key={item.name} className={`relative topNav px-3 ${item?.sublinks!=undefined ? "dropdown-toggle navchild":'' }`}>
                                         <Link
                                             key={item.name}
                                             href={item.href}
                                             className={classNames(
-                                                item.current ? 'bg-black' : `navlinks hover:opacity-100 ${item?.sublinks!=undefined ? "dropdown-toggle navchild":'' }`,
-                                                "px-3 py-4 rounded-md text-lg font-normal opacity-50 space-links"
+                                                item.current ? 'bg-black' : `navlinks hover:opacity-100`,
+                                                "py-4 rounded-md text-lg font-normal opacity-50 space-links"
                                             )}
                                             aria-current={item.href ? 'page' : undefined}
                                         >

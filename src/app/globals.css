@@ -88,9 +88,10 @@ html:not([data-scroll="0"]) .navbar2 {
   text-decoration: none;
   color: black;
 }
-.navchild:hover + .subchild{
+.navchild:hover .subchild{
   display: block;
 }
+.topNav:hover .navlinks{opacity: 1 !important;}
 /* 
 .hover-underline:after {
   content: "";
