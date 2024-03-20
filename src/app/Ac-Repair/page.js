@@ -1,10 +1,10 @@
 import React from "react";
 
-import AskQuestion from "../../../public/components/Sevices/AskQuestionon";
+import AskQuestion from "../../Component/Sevices/AskQuestion";
 import Link from "next/link";
 import dynamic from 'next/dynamic'
-const TypeOfServices = dynamic(() => import('../../../public/components/Sevices/TypeOfServicece'))
-const ContactForm = dynamic(() => import('../../../public/components/ContactForm'))
+const TypeOfServices = dynamic(() => import('../../Component/Sevices/TypeOfService'))
+const ContactForm = dynamic(() => import('../../Component/ContactForm'))
 import { MdPhone } from "react-icons/md";
 export const metadata = {
     title: "Ac repair",
@@ -61,18 +61,18 @@ const AcRepair = () => {
 
     return (
         <>
-            <div className="bg-blue-500/20 text-2xl text-center text-danger">
+            <div className="bg-blue-500/20 text-2xl text-center text-danger py-10 ">
                 <p className="p-5">NO. #1 AC Service & Repair Company in Bangalore
                     At an Affordable Price</p>
                 <Link href="tel:+91 8863886860" type="button" className="border-1 mb-2 p-1 px-4 rounded-2 text-bg-danger text-center text-decoration-none">
                     Call Now
                 </Link>
             </div>
-            <div className="row mb-4">
-                <div className="col-md-6 col-sm-12 rounded-lg shadow-lg text-2xl text-center">
+            <div className="row mb-4 mx-auto max-w-7xl py-10 px-6">
+                <div className="col-md-6 col-sm-12 rounded-lg shadow-lg  text-center">
                     <div className="p-3">
                    
-                    <b>DOORSTEP AC SERVICE IN BANGALORE</b>
+                    <b className="text-2xl">DOORSTEP AC SERVICE IN BANGALORE</b>
                    <div className="mt-4">
                         <p>We are one of the leading Virtual ac repair and service serving customers in Bangalore.</p>
                         <p>All services are performed by highly qualified and certified ac mechanics we core focus on building relationships with our customers.</p>
@@ -93,7 +93,7 @@ const AcRepair = () => {
                    
                   
                 </div>
-                <div className="col-sm-12 col-md-6">
+                <div className="col-sm-12 col-md-6 ">
                     <ContactForm/>
                 </div>
             </div>

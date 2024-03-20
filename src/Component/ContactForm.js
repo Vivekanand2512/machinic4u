@@ -5,14 +5,14 @@ import axios from 'axios';
 
 const ContactForm = (props) => {
     const [formData, setFormData] = useState({
-        fullName: '',
+        Name: '',
         email: '',
         mobileNumber: '',
         message: '',
     });
 
     const [errors, setErrors] = useState({
-        fullName: '',
+        Name: '',
         email: '',
         mobileNumber: '',
         message: '',
@@ -40,8 +40,8 @@ const ContactForm = (props) => {
     const handleSubmit = async (event) => {
         event.preventDefault();
         const newErrors = {};
-        if (!formData.fullName) {
-            newErrors.fullName = 'Full Name is required';
+        if (!formData.Name) {
+            newErrors.Name = 'Full Name is required';
         }
         if (!formData.email) {
             newErrors.email = 'Email is required';
@@ -72,13 +72,13 @@ const ContactForm = (props) => {
     const postData = async () => {
         try {
             const response = await axios.post('http://localhost:1024/', {
-                name: formData?.fullName,
+                name: formData?.Name,
                 email: formData?.email,
                 mobile: formData?.mobileNumber,
                 message: formData?.message,
             });
             setFormData({
-                fullName: '',
+                Name: '',
                 email: '',
                 mobileNumber: '',
                 message: '',
@@ -111,9 +111,9 @@ const ContactForm = (props) => {
                        </label>
                         <input
                             name="Name"
-                            value={formData.fullName}
+                            value={formData.Name}
                             onChange={handleChange}
-                            className={`w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline ${errors.fullName ? 'border-red-500' : ''}`}
+                            className={`w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline ${errors.Name ? 'border-red-500' : ''}`}
                             type="text"
                             placeholder="Enter your Name"
                             required
