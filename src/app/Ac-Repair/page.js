@@ -64,7 +64,7 @@ const AcRepair = () => {
             <div className="bg-blue-500/20 text-2xl text-center text-danger py-10 ">
                 <p className="p-5">NO. #1 AC Service & Repair Company in Bangalore
                     At an Affordable Price</p>
-                <Link href="tel:+91 8863886860" type="button" className="border-1 mb-2 p-1 px-4 rounded-2 text-bg-danger text-center text-decoration-none">
+                <Link href="tel:+91 8863886860" type="button" className="animationbtn bor mb-2 p-1 px-4 rounded-2 text-bg-danger text-center text-decoration-none">
                     Call Now
                 </Link>
             </div>

@@ -5,39 +5,28 @@ export const metadata = {
 }
 const AboutUs = () => {
     return (
-        < div className="container">
-            <div className="p-6">
-                <p>  We enable our customers to maintain their ac, home service (plumbing service, electricians, carpenter, washing machine) motorcycles and scooters conveniently at home by availing good service qualities at a predictable cost.</p>
-
-                <p>We have tie-ups with renowned spares & consumable brands which are enabled through a robust supply chain code. This helps us to ensure that every part used in servicing or repairing your two-wheeler is completely genuine.</p>
-
-                <p>Our vision is to become the one-stop-shop solution for all your two-wheeler needs including periodic maintenance, repairs, accidental repairs, tyre replacement, battery replacement and others.</p><br></br>
-
-
-
-                <p>Our team of skilled technicians boasts years of experience working with motorcycles of all makes and models. They are well-versed in diagnosing and repairing a wide range of issues, from routine maintenance to complex mechanical problems.<br></br>
-
-                    A vision statement explains your brand’s vision and where you want to be in the future. A strong vision statement describes where the company is today and what the objectives are for the future.<br></br>
-                </p>
-                <p>
-                    To create a vision statement:
-                    <br></br>
-                    Focus on long-term results.<br></br>
-
-                    Create a map of your business goals.<br></br>
-
-                    Decide what impact you want to have.<br></br>
-                </p>
-
-
-                <p>Our mission is to raise the awareness of the  bike Repair industry
-                     to the level of professionalism that it deserves. This site is part of 
-                     our ongoing effort to educate people to recognize at the same time clearly 
-                     see the few that have given our industry a bad reputation. We have tried very
-                      hard as a team to recognize what consumers concerns and fears are so that 
-                      we can make the reality of our company answer these concerns every day.</p>
+        <>
+        <div className="topSec">
+            <img src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=2560&amp;q=80" />
+            <div className="Heading">
+                About Us
             </div>
         </div>
+        <div className="container">
+            <div className="p-6">
+               <p>Welcome to mechanics4u, your trusted partner for reliable and efficient repair services. At Mechanics4u, we understand the inconvenience that comes with malfunctioning appliances, whether it's your air conditioner, bike, or washing machine. That's why we're here to provide prompt and professional repair solutions tailored to your needs.</p>
+            <p>With years of experience in the industry, our team of skilled technicians is adept at diagnosing and resolving a wide range of issues. Whether it's a minor adjustment or a major repair, we approach every job with precision and dedication to ensure your appliances are up and running smoothly in no time.</p>
+            <p>At Mechanics4u, customer satisfaction is our top priority. We strive to deliver exceptional service that not only meets but exceeds your expectations. From the moment you reach out to us to the completion of the repair, we're committed to providing transparent communication, reliable workmanship, and fair pricing.</p>
+            <h2>Why choose Mechanics4u for your repair needs?</h2>
+           <p> <b>Expertise: </b> <span>Our technicians undergo rigorous training and stay updated with the latest technologies and techniques to deliver top-notch repair services.</span></p>
+             <p><b>Convenience: </b><span>We understand the urgency of your repair needs. That's why we offer flexible scheduling options to accommodate your busy lifestyle.</span></p> 
+             <p><b>Quality Parts: </b> <span>We use only genuine and high-quality parts to ensure the longevity and efficiency of your appliances.</span></p> 
+             <p><b>Affordability: </b> <span>We believe in providing value for money. Our competitive pricing ensures that you get quality repairs without breaking the bank. </span></p> 
+              <p><b> Reliability: </b> <span> You can trust us to get the job done right the first time. We stand behind our work with a satisfaction guarantee.</span></p>
+
+              <p className="mt-2">Whether you need your air conditioner, bike, or washing machine repaired, you can count on Mechanics4u to deliver fast, reliable, and affordable service. Contact us today to schedule your repair appointment and experience the Mechanics4u difference!</p>
+            </div>
+        </div></>
     )
 }
 export default AboutUs
