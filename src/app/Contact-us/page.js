@@ -1,6 +1,6 @@
 import React from "react";
 import dynamic from 'next/dynamic';
-
+ import conatctusimage from '../../../public/images/contactus/Contact us.png'
 import { IoLocationSharp } from "react-icons/io5";
 const ContactForm = dynamic(() => import('@/Component/ContactForm'))
 
@@ -16,9 +16,9 @@ const ContactUs = () => {
     return (
         <>
         <div className="topSec">
-            <img src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=2560&amp;q=80" />
+            <img src={conatctusimage?.src} />
             <div className="Heading">
-                Contact Us
+                {/* Contact Us */}
             </div>
         </div>
         <div className="row mx-auto max-w-7xl py-10 px-6">

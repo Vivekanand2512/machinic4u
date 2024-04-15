@@ -94,7 +94,7 @@ const ContactForm = (props) => {
         <div className="md:px-12 p-3 rounded-lg shadow-lg text-gray-900">
             {props?.show && (
                 <div className="text-center">
-                    <h1 className="text-4xl lg:text-4xl">Contact Form</h1>
+                    <h1>Contact Form</h1>
                     <div className='my-3'>
                         <b>Lets talk about everything!</b>
                         <div className="text-gray-700 mt-8">
@@ -106,7 +106,7 @@ const ContactForm = (props) => {
             <div className='p-3'>
                 <form onSubmit={handleSubmit}>
                     <div>
-                    <label htmlFor="name" className="block font-bold text-sm">
+                    <label htmlFor="name" className="block font-bold ">
                          Name:
                        </label>
                         <input
@@ -118,10 +118,10 @@ const ContactForm = (props) => {
                             placeholder="Enter your Name"
                             required
                         />
-                        {errors.fullName && <p className="text-red-500 text-sm mt-1">{errors.fullName}</p>}
+                        {errors.fullName && <p className="text-red-500  mt-1">{errors.fullName}</p>}
                     </div>
                     <div className='my-3'>
-                    <label htmlFor="email" className="block font-bold text-sm">
+                    <label htmlFor="email" className="block font-bold">
                          Email:
                        </label>
                         <input
@@ -133,10 +133,10 @@ const ContactForm = (props) => {
                             placeholder="Email"
                             required
                         />
-                        {errors.email && <p className="text-red-500 text-sm mt-1">{errors.email}</p>}
+                        {errors.email && <p className="text-red-500 mt-1">{errors.email}</p>}
                     </div>
                     <div>
-                    <label htmlFor="mobileNumber" className="block font-bold text-sm">
+                    <label htmlFor="mobileNumber" className="block font-bold">
                     Mobile Number:
                        </label>
                         <input
@@ -151,10 +151,10 @@ const ContactForm = (props) => {
                             pattern="[1-9]{1}[0-9]{9}"
                             required
                         />
-                        {errors.mobileNumber && <p className="text-red-500 text-sm mt-1">{errors.mobileNumber}</p>}
+                        {errors.mobileNumber && <p className="text-red-500  mt-1">{errors.mobileNumber}</p>}
                     </div>
                   {props?.show &&<div className='my-3'>
-                  <label htmlFor="choose Services" className="block font-bold text-sm">
+                  <label htmlFor="choose Services" className="block font-bold">
                   choose Services:
                        </label>
                         <select name="choose Services" className={`w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline ${errors.mobileNumber ? 'border-red-500' : ''}`}>
@@ -166,7 +166,7 @@ const ContactForm = (props) => {
                         </select>
                     </div>}
                     <div className="mt-8">
-                    <label htmlFor="message" className="block font-bold text-sm">
+                    <label htmlFor="message" className="block font-bold">
                       Comment:
                        </label>
                         <textarea
@@ -177,12 +177,12 @@ const ContactForm = (props) => {
                             placeholder="Message"
                             required
                         ></textarea>
-                        {errors.message && <p className="text-red-500 text-sm mt-1">{errors.message}</p>}
+                        {errors.message && <p className="text-red-500 mt-1">{errors.message}</p>}
                     </div>
                     <div className="mt-8">
                         <button
                             type="submit"
-                            className="uppercase text-sm font-bold tracking-wide bg-indigo-500 text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline"
+                            className="uppercase font-bold tracking-wide bg-indigo-500 text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline"
                         >
                             Send Message
                         </button>

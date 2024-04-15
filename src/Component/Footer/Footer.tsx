@@ -36,19 +36,20 @@ const socialLinks: socialLinks[] = [
 const products: ProductType[] = [
     {
         id: 1,
-        section: "Company",
-        link: ['About', 'Careers', 'Mobile', 'Blog', 'How we work?'],
+        section: "Contact info ",
+        link: ['Main Office :- mechanics4u, 10th, cross muneshwara layout attur, layout yehalankha 560064, +91988-0394-900, Office Address: Noida, and Delhi']
     },
     {
         id: 2,
-        section: "Contact",
-        link: ['Help/FAQ', 'Press', 'Affiliates', 'Hotel owners', 'Partners']
-    }
+        section: "Quick Links",
+        link: ['Home', 'Types of Service', 'About Us', 'Contact Us?'],
+    },
+   
     ,
     {
         id: 3,
-        section: "More",
-        link: ['Recipe', 'Chef', 'Food', 'Support']
+        section: "Our Services",
+        link: ['AC Repair']
     }
 ]
 
@@ -67,7 +68,7 @@ const footer = () => {
                             Chef&apos;s Kitchen.
                         </Link>
                     </div>
-                    <h3 className='text-textbl text-xs font-medium mt-5 mb-4 lg:mb-16'> Open an account in minutes, get full financial <br /> control for much longer.</h3>
+                    <h3 className='text-textbl text-xs font-medium mt-5 mb-4 lg:mb-16'> Best Repair & Service Providers in Bangalore</h3>
                     <div className='flex gap-4'>
 
                         {socialLinks.map((items, i) => (

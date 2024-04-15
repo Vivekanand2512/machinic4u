@@ -1,4 +1,5 @@
 import React from "react"
+import aboutusImage from '../../../public/images/contactus/about us.png'
 export const metadata = {
     title: "About us ",
     description: "this is about us page",
@@ -7,7 +8,7 @@ const AboutUs = () => {
     return (
         <>
         <div className="topSec">
-            <img src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=2560&amp;q=80" />
+            <img src={aboutusImage?.src} />
             <div className="Heading">
                 About Us
             </div>

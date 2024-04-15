@@ -30,8 +30,9 @@ const cardData=[
 ]
     return(
         <>
-        
+     
             <div className="mx-auto max-w-7xl pb-40 px-6">
+            <h4 class="font-bold mt-32 t text-3xl text-center">Our Services?</h4>
             <div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-y-20 gap-x-5 mt-32'>
                     <Fade direction={'up'} delay={300} cascade damping={1e-1} triggerOnce={true}>
                         {cardData.map((items, i) => (

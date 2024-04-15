@@ -6,6 +6,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FaAngleLeft } from "react-icons/fa";
 import { FaAngleRight } from "react-icons/fa";
+import image1 from '../../../public/images/Slider/image1.jpeg'
+import image2 from '../../../public/images/Slider/image2.jpeg'
+import image3 from '../../../public/images/Slider/image3.jpeg'
 
 export default function SingleCarousel() {
   var settings = {
@@ -24,19 +27,18 @@ export default function SingleCarousel() {
   const slides = [
     {
       imageUrl:
-        "https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2560&q=80",
+        image1,
       title: "Title 1",
       subhead: "Subtitle 1",
     },
     {
-      imageUrl:
-        "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
+      imageUrl:image2,
       title: "Title 2",
       subhead: "Subtitle 2",
     },
     {
       imageUrl:
-        "https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2762&q=80",
+      image3,
       title: "Title 3",
       subhead: "Subtitle 3",
     },
@@ -49,7 +51,7 @@ export default function SingleCarousel() {
         {slides.map((slide, index) => (
             <div key={index}>
             <img style={{ height: "500px" }} 
-              src={slide.imageUrl}
+              src={slide.imageUrl?.src}
               loading="lazy"
               className="h-full w-full object-cover"
             />

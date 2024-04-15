@@ -59,8 +59,8 @@ const ChooseUs = () => {
 
                     <div className="co-sm-12 col-md-4 mb-5">
                         <div className="p-4 rounded shadow-lg h-100">
-                            <h2 className="text-xl font-bold text-blue-700">Modern Design</h2>
-                            <p className="text-gray-600">We use latest technology for the latest world because we know the demand of peoples.</p>
+                            <h2 className="text-xl font-bold text-blue-700">Convenient Scheduling </h2>
+                            <p className="text-gray-600">We understand that your time is valuable. That's why we offer flexible scheduling options to accommodate your busy lifestyle. Whether you need a repair service during weekdays, weekends, or even on short notice, we're here to accommodate your needs and provide convenient appointment times.</p>
                         </div>
                     </div>
 
