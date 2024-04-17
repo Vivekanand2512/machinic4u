@@ -9,11 +9,12 @@ const AboutUs = () => {
         <>
         <div className="topSec">
             <img src={aboutusImage?.src} />
-            <div className="Heading">
+            {/* <div className="Heading">
                 About Us
-            </div>
+            </div> */}
         </div>
-        <div className="container">
+        <div className="container mt-16">
+        <div class="Heading text-3xl text-center">About Us</div>
             <div className="p-6">
                <p>Welcome to mechanics4u, your trusted partner for reliable and efficient repair services. At Mechanics4u, we understand the inconvenience that comes with malfunctioning appliances, whether it's your air conditioner, bike, or washing machine. That's why we're here to provide prompt and professional repair solutions tailored to your needs.</p>
             <p>With years of experience in the industry, our team of skilled technicians is adept at diagnosing and resolving a wide range of issues. Whether it's a minor adjustment or a major repair, we approach every job with precision and dedication to ensure your appliances are up and running smoothly in no time.</p>

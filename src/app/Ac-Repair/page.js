@@ -1,9 +1,9 @@
 import React from "react";
 
-import AskQuestion from "../../Component/Sevices/AskQuestion";
+import AskQuestion from "../../Component/GlobalComponent/AskQuestion";
 import Link from "next/link";
 import dynamic from 'next/dynamic'
-const TypeOfServices = dynamic(() => import('../../Component/Sevices/TypeOfService'))
+const TypeOfServices = dynamic(() => import('../../Component/GlobalComponent/TypeOfService'))
 const ContactForm = dynamic(() => import('../../Component/ContactForm'))
 import { MdPhone } from "react-icons/md";
 export const metadata = {

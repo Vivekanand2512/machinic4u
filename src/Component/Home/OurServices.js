@@ -2,27 +2,37 @@
  import React from "react";
  import Image from 'next/image';
  import { Fade } from "react-awesome-reveal";
+ import AcRepair from '../../../public/images/OurServicesImage/Ac Repair.jpeg'
+ import BikeService from '../../../public/images/OurServicesImage/Bike Service.jpeg'
+ import Carpenter from '../../../public/images/OurServicesImage/Carpenter.jpeg'
+ import CarRepair from '../../../public/images/OurServicesImage/CarRepair.jpeg'
+ import Electrician from '../../../public/images/OurServicesImage/Electrician.jpeg'
  const OurServices=()=>{
     
 const cardData=[
     {
-        imgSrc: '/images/Features/featureOne.svg',
-        heading: "Menu variations",
+        imgSrc: AcRepair,
+        heading: "Ac Repair",
         
     },
     {
-        imgSrc: '/images/Features/featureTwo.svg',
-        heading: "Cooking warw",
+        imgSrc: BikeService,
+        heading: "Bike Service",
       
     },
     {
-        imgSrc: '/images/Features/featureThree.svg',
-        heading: "Best chef",
+        imgSrc: Carpenter,
+        heading: "Carpenter",
        
     },
     {
-        imgSrc: '/images/Features/featureFour.svg',
-        heading: "Fast food",
+        imgSrc: CarRepair,
+        heading: "Car Repair",
+     
+       
+    }, {
+        imgSrc: Electrician,
+        heading: "Electrician",
      
        
     }
@@ -32,15 +42,15 @@ const cardData=[
         <>
      
             <div className="mx-auto max-w-7xl pb-40 px-6">
-            <h4 class="font-bold mt-32 t text-3xl text-center">Our Services?</h4>
-            <div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-y-20 gap-x-5 mt-32'>
+            <h4 class="font-bold mt-32 t text-3xl text-center OurServices">Our Services</h4>
+            <div className='d-flex gap-xl-5 gap-y-20 grid lg:grid-cols-4 mt-32 sm:grid-cols-2'>
                     <Fade direction={'up'} delay={300} cascade damping={1e-1} triggerOnce={true}>
                         {cardData.map((items, i) => (
-                            <div className='card-b p-8 relative rounded-3xl' key={i}>
-                                <div className='work-img-bg rounded-full flex justify-center absolute top-[-50%] sm:top-[-40%] md:top-[-55%] lg:top-[-45%] left-[0%]'>
-                                    <Image src={items?.imgSrc} alt={items?.imgSrc} width={510} height={10} />
+                            <div className='text-center' key={i}>
+                                <div>
+                                    <Image src={items?.imgSrc?.src} alt={items?.imgSrc?.src} width={510} height={10} />
                                 </div>
-                                <h3 className='text-2xl text-black font-semibold text-center mt-16'>{items.heading}</h3>
+                                <h3 className='text-2xl text-black font-semibold text-center mt-4'>{items.heading}</h3>
                               
                             </div>
                         ))}
