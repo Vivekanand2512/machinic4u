@@ -40,7 +40,7 @@ const ChooseUs = () => {
     }
     return (
        
-        <TypeOfServices ServicesData={AcServicesData} ></TypeOfServices>
+        <TypeOfServices ServicesData={AcServicesData} usedFor={'chooseUs'}></TypeOfServices>
     )
 
 }

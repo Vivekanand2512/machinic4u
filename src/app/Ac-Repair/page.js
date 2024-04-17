@@ -97,7 +97,7 @@ const AcRepair = () => {
                     <ContactForm/>
                 </div>
             </div>
-            <TypeOfServices ServicesData={AcServicesData} />
+            <TypeOfServices ServicesData={AcServicesData}  usedFor={'acServices'}/>
             <div className="shadow">
                 <div className="container mx-auto p-4">
                     <h4 className="font-bold text-3xl text-center">
