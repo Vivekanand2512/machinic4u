@@ -12,7 +12,8 @@ const navigation = [
         current: false,
         sublinks: [
             { name: 'Ac-Repair', href: '/Ac-Repair', current: false },
-            { name: 'Service 2', href: '/service-2', current: false },
+            { name: 'Ac-Repair', href: '/Ac-Repair', current: false },
+            { name: 'Carpenter', href: '/Carpenter ',current:false },
             // Add more services as needed
         ]
     },
