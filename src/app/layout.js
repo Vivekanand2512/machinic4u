@@ -4,6 +4,7 @@ import "./globals.css";
  import Navbar2 from "@/Component/Navbar/Navbar";
  import 'bootstrap/dist/css/bootstrap.min.css';
  import Footer from "@/Component/Footer/Footer";
+ import { FaPhone } from "react-icons/fa6";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -16,6 +17,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <Navbar2></Navbar2>
+        <a href="tel:+91 9880394900" className="bg-danger bottom-0 fixed flex items-center mb-4 mr-4 p-4 right-0 rounded-5 text-white">
+        <FaPhone/>
+        </a>
+      
         {children}
         <Footer/>
         </body>

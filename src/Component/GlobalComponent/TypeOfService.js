@@ -50,10 +50,10 @@ const TypeOfServices = (props) => {
                                         <>
                                             <p id={`fullContent-${props?.usedFor}${index}`} style={{ display: 'none' }}>{cardItems?.Title}</p>
                                             <p id={`lessContent-${props?.usedFor}${index}`}>{cardItems?.Title?.substring(0, 250)}</p>
-                                            <button id={`readLess-${props?.usedFor}${index}`} style={{ display: 'none' }} onClick={() => { toggleReadMore(index, "readLess") }}>
+                                            <button className="font-bold" id={`readLess-${props?.usedFor}${index}`} style={{ display: 'none' }} onClick={() => { toggleReadMore(index, "readLess") }}>
                                                 Read Less
                                             </button>
-                                            <button id={`readMore-${props?.usedFor}${index}`} onClick={() => { toggleReadMore(index, "readMore") }}>
+                                            <button  className="font-bold"id={`readMore-${props?.usedFor}${index}`} onClick={() => { toggleReadMore(index, "readMore") }}>
                                                 Read More
                                             </button>
                                         </> : <p className="text-gray-600">{cardItems?.Title}</p>

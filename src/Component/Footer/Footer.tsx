@@ -5,7 +5,7 @@ import Image from "next/image";
 interface ProductType {
     id: number;
     section: string;
-    link: string[];
+    link: [];
 }
 
 interface socialLinks {
@@ -33,17 +33,28 @@ const socialLinks: socialLinks[] = [
 
 ]
 
-const products: ProductType[] = [
+const products = [
+   
     {
         id: 1,
         section: "Contact info ",
         link: ['Main Office :- mechanics4u, 10th, cross muneshwara layout attur, layout yehalankha 560064, +91988-0394-900, Office Address: Noida, and Delhi']
+       
     },
     {
         id: 2,
         section: "Quick Links",
-        link: ['Home', 'Types of Service', 'About Us', 'Contact Us?'],
+        link: ['Home' , 'Types of Service', 'About Us', 'Contact Us?'],
     },
+    // {
+    //     id: 2,
+    //     section: "Quick Links",
+    //     link: [
+    //         {Title:'Home',href:"/"},
+    //         {Title:'About Us',href:"/About Us"},
+    //         {Title:'Contact Us',href:"/Contact Us"}
+    //          ],
+    // },
    
     ,
     {
@@ -87,10 +98,10 @@ const footer = () => {
 
                 {products.map((product) => (
                     <div key={product.id} className="sm:col-span-2">
-                        <p className="text-black text-xl font-semibold mb-9">{product.section}</p>
-                        <ul>
+                        <p className="text-black text-xl font-semibold mx-1">{product.section}</p>
+                        <ul className="p-0 me-3">
                             {product.link.map((link: string, index: number) => (
-                                <li key={index} className='mb-5'>
+                                <li key={index} className='mb-1'>
                                     <Link href="/" className="text-footerlinks text-base font-normal mb-6 space-links">{link}</Link>
                                 </li>
                             ))}
