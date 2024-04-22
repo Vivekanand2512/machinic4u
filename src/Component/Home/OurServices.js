@@ -4,7 +4,7 @@ import React from "react";
 import Image from 'next/image';
 import { Fade } from "react-awesome-reveal";
 import AcRepair from '../../../public/images/OurServicesImage/Ac Repair.jpeg'
-import BikeService from '../../../public/images/OurServicesImage/Bike Service.jpeg'
+import BikeService from '../../../public/images/OurServicesImage/Bike Service.png'
 import Carpenter from '../../../public/images/OurServicesImage/Carpenter.jpeg'
 import CarRepair from '../../../public/images/OurServicesImage/CarRepair.jpeg'
 import Electrician from '../../../public/images/OurServicesImage/Electrician.jpeg'
