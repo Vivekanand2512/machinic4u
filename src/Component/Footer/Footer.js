@@ -2,19 +2,9 @@ import Link from "next/link";
 import Image from "next/image";
 
 
-interface ProductType {
-    id: number;
-    section: string;
-    link: [];
-}
 
-interface socialLinks {
-    imgSrc: string;
-    link: string;
-    width: number;
-}
 
-const socialLinks: socialLinks[] = [
+const socialLinks= [
     {
         imgSrc: '/images/Footer/facebook.svg',
         link: 'https://facebook.com',
@@ -38,29 +28,25 @@ const products = [
     {
         id: 1,
         section: "Contact info ",
-        link: ['Main Office :- mechanics4u, 10th, cross muneshwara layout attur, layout yehalankha 560064, +91988-0394-900, Office Address: Noida, and Delhi']
+        link: [{Title:'Main Office :- mechanics4u, 10th, cross muneshwara layout attur, layout yehalankha 560064, +91988-0394-900, Office Address: Noida, and Delhi',linking:"/"}]
        
     },
+    
     {
         id: 2,
         section: "Quick Links",
-        link: ['Home' , 'Types of Service', 'About Us', 'Contact Us?'],
+        link: [
+            {Title:'Home',linking:"/"},
+            {Title:'About Us',linking:"/About-us"},
+            {Title:'Contact Us',linking:"/Contact-us"}
+             ],
     },
-    // {
-    //     id: 2,
-    //     section: "Quick Links",
-    //     link: [
-    //         {Title:'Home',href:"/"},
-    //         {Title:'About Us',href:"/About Us"},
-    //         {Title:'Contact Us',href:"/Contact Us"}
-    //          ],
-    // },
    
     ,
     {
         id: 3,
         section: "Our Services",
-        link: ['AC Repair']
+        link: [{Title:'AC' ,linking:"/Ac-Repair"},{Title:"Bike Repair",linking:"/Bike-Repair"},{Title:"Carpenter",linking:"/Carpenter"}]
     }
 ]
 
@@ -100,9 +86,9 @@ const footer = () => {
                     <div key={product.id} className="sm:col-span-2">
                         <p className="text-black text-xl font-semibold mx-1">{product.section}</p>
                         <ul className="p-0 me-3">
-                            {product.link.map((link: string, index: number) => (
+                            {product.link.map((link, index) => (
                                 <li key={index} className='mb-1'>
-                                    <Link href="/" className="text-footerlinks text-base font-normal mb-6 space-links">{link}</Link>
+                                    <Link href={link?.linking} className="text-footerlinks text-base font-normal mb-6 space-links">{link?.Title}</Link>
                                 </li>
                             ))}
                         </ul>
