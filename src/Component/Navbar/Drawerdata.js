@@ -12,14 +12,14 @@ const navigation = [
         current: false,
         sublinks: [
             { name: 'Ac-Repair', href: '/Ac-Repair', current: false },
-            { name: 'Ac-Repair', href: '/Ac-Repair', current: false },
+            { name: 'Bike-Repair', href: '/Bike-Repair', current: false },
             { name: 'Carpenter', href: '/Carpenter ',current:false },
             // Add more services as needed
         ]
     },
     { name: 'About us', href: '/About-us', current: false },
     { name: 'Contact Us', href: '/Contact-us', current: false },
-    { name: "+91 8863886860", href: "tel:-+8863886860", current: false }
+    { name: "+91 9880394900", href: "tel:-+9880394900", current: false }
 ];
 
 

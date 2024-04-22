@@ -12,19 +12,19 @@ import phoneimage from '../../../public/images/Navbar/phone.svg'
 
 const navigation = [
     { name: 'Home', href: '/', current: false },
-    { 
-        name: 'Services', 
-        href: '', 
-        current: false, 
+    {
+        name: 'Services',
+        href: '',
+        current: false,
         sublinks: [
-            { name: 'Ac-Repair', href: '/Ac-Repair',current:false },
-            { name: 'Bike-Repair', href: '/Bike-Repair',current:false },
-            { name: 'Carpenter', href: '/Carpenter ',current:false },
+            { name: 'Ac-Repair', href: '/Ac-Repair', current: false },
+            { name: 'Bike-Repair', href: '/Bike-Repair', current: false },
+            { name: 'Carpenter', href: '/Carpenter ', current: false },
             // Add more services as needed
-        ] 
+        ]
     },
     { name: 'About us', href: '/About-us', current: false },
-    { name: 'Contact Us', href: '/Contact-us', current: false},
+    { name: 'Contact Us', href: '/Contact-us', current: false },
 ];
 
 
@@ -63,29 +63,29 @@ const Navbar2 = () => {
                             <div className="hidden lg:flex items-center border-right ">
                                 <div className="flex justify-end space-x-4">
                                     {navigation.map((item) => (
-                                         <div key={item.name} className={`relative topNav px-3 ${item?.sublinks!=undefined ? "dropdown-toggle navchild":'' }`}>
-                                        <Link
-                                            key={item.name}
-                                            href={item.href}
-                                            className={classNames(
-                                                item.current ? 'bg-black' : `navlinks hover:opacity-100`,
-                                                "py-4 rounded-md text-lg font-normal opacity-50 space-links"
-                                            )}
-                                            aria-current={item.href ? 'page' : undefined}
-                                        >
-                                            {item.name}
-                                        </Link>
-                                        {item.sublinks && (
-                                            <div className="absolute top-full left-0 bg-white shadow-lg p-2 mt-1 rounded-md hidden subchild">
-                                                {item.sublinks.map((sublink) => (
-                                                    <Link key={sublink.name} href={sublink.href}
-                                                         className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded-md">
+                                        <div key={item.name} className={`relative topNav px-3 ${item?.sublinks != undefined ? "dropdown-toggle navchild" : ''}`}>
+                                            <Link
+                                                key={item.name}
+                                                href={item.href}
+                                                className={classNames(
+                                                    item.current ? 'bg-black' : `navlinks hover:opacity-100`,
+                                                    "py-4 rounded-md text-lg font-normal opacity-50 space-links"
+                                                )}
+                                                aria-current={item.href ? 'page' : undefined}
+                                            >
+                                                {item.name}
+                                            </Link>
+                                            {item.sublinks && (
+                                                <div className="absolute top-full left-0 bg-white shadow-lg p-2 mt-1 rounded-md hidden subchild">
+                                                    {item.sublinks.map((sublink) => (
+                                                        <Link key={sublink.name} href={sublink.href}
+                                                            className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded-md">
                                                             {sublink.name}
-                                                        
-                                                    </Link>
-                                                ))}
-                                            </div>
-                                        )}
+
+                                                        </Link>
+                                                    ))}
+                                                </div>
+                                            )}
                                         </div>
                                     ))}
                                 </div>
@@ -94,10 +94,10 @@ const Navbar2 = () => {
                             <div className='gap-6 hidden lg:flex'>
                                 <div className='flex items-center gap-2'>
                                     <Image src={phoneimage} alt="phone-image" width={19} height={19} />
-                                    <Link href="tel:-+8863886860" className='text-lg font-medium'>+91 8863886860</Link>
+                                    <Link href="tel:-+9880394900" className='text-lg font-medium'>+91 9880394900</Link>
                                 </div>
                                 {/* <button className='flex justify-end text-xl font-medium bg-bgpink text-pink py-4 px-4 lg:px-8 navbutton rounded-full hover:text-black'>Sign in</button> */}
-                            
+
                             </div>
                         </div>
 

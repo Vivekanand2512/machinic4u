@@ -98,7 +98,7 @@ const AcRepair = () => {
             <div className="bg-blue-500/20 text-2xl text-center text-danger py-10 ">
                 <p className="p-5">NO. #1 CARPENTER  Service & Repair Company in Bangalore
                     At an Affordable Price</p>
-                <Link href="tel:+91 8863886860" type="button" className="animationbtn bor mb-2 p-1 px-4 rounded-2 text-bg-danger text-center text-decoration-none">
+                <Link href="tel:+91 9880394900" type="button" className="animationbtn bor mb-2 p-1 px-4 rounded-2 text-bg-danger text-center text-decoration-none">
                     Call Now
                 </Link>
             </div>
@@ -111,23 +111,23 @@ const AcRepair = () => {
 
                         <b className="text-2xl">DOORSTEP CARPENTER SERVICE IN BANGALORE</b>
                         <div className="mt-4">
-                           <p>You need a carpenter to fix a broken chair or table? 
-                            Need a custom-made bed for your home? 
-                            Look no further! 🛠️ Call us at +91- 98803 94900 to book
-                             our expert carpentry services today. Our highly skilled 
-                             professionals deliver quality work on time, making your convenience a priority.
-                              From fixing wood rot to crafting custom beds, we handle it all - framing, 
-                              molding, interior and exterior trim, door replacement, desks, siding, porches,
-                               and rails. At our service, we believe that everything broken can be fixed. 
-                               Trust our experts to repair and restore your furniture and fixtures to their former glory.
+                            <p>You need a carpenter to fix a broken chair or table?
+                                Need a custom-made bed for your home?
+                                Look no further! 🛠️ Call us at +91- 98803 94900 to book
+                                our expert carpentry services today. Our highly skilled
+                                professionals deliver quality work on time, making your convenience a priority.
+                                From fixing wood rot to crafting custom beds, we handle it all - framing,
+                                molding, interior and exterior trim, door replacement, desks, siding, porches,
+                                and rails. At our service, we believe that everything broken can be fixed.
+                                Trust our experts to repair and restore your furniture and fixtures to their former glory.
                                 Don't wait, let's get everything fixed together!"</p>
                         </div>
                         <div className="p-4">
-                            <Link href="tel:+91 8863886860" className="text-decoration-none">
+                            <Link href="tel:+91 9880394900" className="text-decoration-none">
                                 <div>
                                     <MdPhone className='me-2 ms-4 mt-1.5 position-absolute' style={{ fontSize: "50px" }} />
                                     Mechanic on Call
-                                    <div>+91 8863886860</div>
+                                    <div>+91 9880394900</div>
                                 </div>
                             </Link>
 
@@ -146,18 +146,18 @@ const AcRepair = () => {
 
                     </h4>
                     <div>
-                    <p>Welcome to Mechanics4u, where we blend traditional craftsmanship with modern innovation to deliver top-notch carpentry services in Bangalore. If you're seeking skilled artisans to bring your woodworking dreams to life, look no further – we're here to exceed your expectations.</p>
-                   <p>At Mechanics4u we take immense pride in our craft and strive for perfection in every project we undertake. Here's why we're your go-to destination for all your carpentry needs:</p>
-                  <p>
-    <h4>1. Masterful Craftsmanship:</h4> Our team of seasoned carpenters is not just skilled professionals – they're true artisans. With years of experience honing their craft and a passion for woodworking, they possess the expertise to turn your vision into reality with meticulous attention to detail.
-</p> 
-<p><h4>2. Custom Solutions: </h4>Whether you're looking to furnish your home, revamp your office space, or add a touch of elegance to your commercial establishment, we offer tailor-made solutions to suit your unique requirements. From bespoke furniture pieces to custom cabinetry and beyond, we'll work closely with you to design and create the perfect solution for your space.</p>
-  <p><h4>3. Quality Materials: </h4>We believe that the foundation of exceptional carpentry lies in the quality of materials used. That's why we source only the finest hardwoods, veneers, and other materials from trusted suppliers to ensure durability, beauty, and longevity in every project we undertake.</p>
-  <p><h4>4. Attention to Detail: </h4>From the initial concept to the final finishing touches, we pay meticulous attention to every detail to ensure a flawless result. Whether it's intricate joinery, precision cuts, or immaculate finishes, we go above and beyond to deliver craftsmanship of the highest caliber.</p>
-  <p><h4>5. Wide Range of Services:</h4> Whether you need furniture repairs, custom woodworking, cabinetry installation, or interior remodeling, we offer a comprehensive range of services to meet your needs. No project is too big or too small – we approach each one with the same dedication and commitment to excellence.</p>
-  <p><h4>6. Timely Completion:</h4> We understand the importance of deadlines and strive to complete every project in a timely manner without compromising on quality. With efficient project management and streamlined workflows, you can trust us to deliver on time, every time.</p>
-  <p><h4>7. Customer Satisfaction Guaranteed:</h4> Your satisfaction is our ultimate priority. We believe in building long-lasting relationships with our clients based on trust, integrity, and superior craftsmanship. From concept to completion, we'll work closely with you to ensure that your vision is realized to perfection.</p>
-    <p>Experience the Mechanics4u difference for yourself and elevate your space with our unparalleled carpentry services. Contact us today to discuss your project requirements and discover why we're Bangalore's leading choice for exceptional woodworking craftsmanship.</p>              
+                        <p>Welcome to Mechanics4u, where we blend traditional craftsmanship with modern innovation to deliver top-notch carpentry services in Bangalore. If you're seeking skilled artisans to bring your woodworking dreams to life, look no further – we're here to exceed your expectations.</p>
+                        <p>At Mechanics4u we take immense pride in our craft and strive for perfection in every project we undertake. Here's why we're your go-to destination for all your carpentry needs:</p>
+                        <p>
+                            <h4>1. Masterful Craftsmanship:</h4> Our team of seasoned carpenters is not just skilled professionals – they're true artisans. With years of experience honing their craft and a passion for woodworking, they possess the expertise to turn your vision into reality with meticulous attention to detail.
+                        </p>
+                        <p><h4>2. Custom Solutions: </h4>Whether you're looking to furnish your home, revamp your office space, or add a touch of elegance to your commercial establishment, we offer tailor-made solutions to suit your unique requirements. From bespoke furniture pieces to custom cabinetry and beyond, we'll work closely with you to design and create the perfect solution for your space.</p>
+                        <p><h4>3. Quality Materials: </h4>We believe that the foundation of exceptional carpentry lies in the quality of materials used. That's why we source only the finest hardwoods, veneers, and other materials from trusted suppliers to ensure durability, beauty, and longevity in every project we undertake.</p>
+                        <p><h4>4. Attention to Detail: </h4>From the initial concept to the final finishing touches, we pay meticulous attention to every detail to ensure a flawless result. Whether it's intricate joinery, precision cuts, or immaculate finishes, we go above and beyond to deliver craftsmanship of the highest caliber.</p>
+                        <p><h4>5. Wide Range of Services:</h4> Whether you need furniture repairs, custom woodworking, cabinetry installation, or interior remodeling, we offer a comprehensive range of services to meet your needs. No project is too big or too small – we approach each one with the same dedication and commitment to excellence.</p>
+                        <p><h4>6. Timely Completion:</h4> We understand the importance of deadlines and strive to complete every project in a timely manner without compromising on quality. With efficient project management and streamlined workflows, you can trust us to deliver on time, every time.</p>
+                        <p><h4>7. Customer Satisfaction Guaranteed:</h4> Your satisfaction is our ultimate priority. We believe in building long-lasting relationships with our clients based on trust, integrity, and superior craftsmanship. From concept to completion, we'll work closely with you to ensure that your vision is realized to perfection.</p>
+                        <p>Experience the Mechanics4u difference for yourself and elevate your space with our unparalleled carpentry services. Contact us today to discuss your project requirements and discover why we're Bangalore's leading choice for exceptional woodworking craftsmanship.</p>
                     </div>
 
                 </div>
