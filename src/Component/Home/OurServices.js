@@ -43,7 +43,7 @@ const cardData=[
      
             <div className="mx-auto max-w-7xl pb-40 px-6">
             <h4 class="font-bold mt-32 t text-3xl text-center OurServices">Our Services</h4>
-            <div className='d-flex gap-xl-5 gap-y-20 grid lg:grid-cols-4 mt-32 sm:grid-cols-2'>
+            <div className='d-flex gap-xl-5 gap-y-20 grid lg:grid-cols-4 mt-32 sm:grid-cols-2 TypeOfServiceImg'>
                     <Fade direction={'up'} delay={300} cascade damping={1e-1} triggerOnce={true}>
                         {cardData.map((items, i) => (
                             <div className='text-center' key={i}>
