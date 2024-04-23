@@ -120,10 +120,10 @@ const AcRepair = () => {
                         </div>
                         <div className="p-4">
                             <Link href="tel:+91 9880394900" className="text-decoration-none">
-                                <div>
-                                    <MdPhone className='me-2 ms-4 mt-1.5 position-absolute' style={{ fontSize: "50px" }} />
-                                    Mechanic on Call
-                                    <div>+91 9880394900</div>
+                                <div className="d-flex justify-center">
+                                   <div> <MdPhone className='me-2 ms-4 mt-1.5 ' style={{ fontSize: "50px" }} /></div>
+                                   <p> Mechanic on Call<br></br>
+                                    +91 9880394900</p>
                                 </div>
                             </Link>
 
