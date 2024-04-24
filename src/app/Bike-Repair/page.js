@@ -160,7 +160,7 @@ const AcRepair = () => {
                 </div>
             </div>
             <div className="container mt-4 text-center">
-                <h2>Frequently Asked Questions about Bike Repair Services in Bangalore</h2>
+                <h2 className="font-bold">Frequently Asked Questions about Bike Repair Services in Bangalore</h2>
                 <AskQuestion AskQ={AskQ} />
             </div>
 

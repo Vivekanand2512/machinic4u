@@ -13,7 +13,9 @@ const navigation = [
         sublinks: [
             { name: 'Ac-Repair', href: '/Ac-Repair', current: false },
             { name: 'Bike-Repair', href: '/Bike-Repair', current: false },
+            { name: 'Car-Repair', href: '/Car-Repair', current: false },
             { name: 'Carpenter', href: '/Carpenter ',current:false },
+            { name: 'Electrician', href: '/Electrician ',current:false },
             // Add more services as needed
         ]
     },

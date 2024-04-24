@@ -9,7 +9,7 @@ import { MdPhone } from "react-icons/md";
 export const metadata = {
     title: "Ac repair",
     description: "ac repair near me",
-}
+} 
 const AcRepair = () => {
     const AcServicesData = {
         ServiceHeading: "Any Types of AC SERVICES",
@@ -156,7 +156,7 @@ const AcRepair = () => {
                 </div>
             </div>
             <div className="container mt-4 text-center">
-                <h2>Frequently Asked Questions about AC Repair Services in Bangalore</h2>
+                <h2 className="font-bold">Frequently Asked Questions about AC Repair Services in Bangalore</h2>
                 <AskQuestion AskQ={AskQ} />
             </div>
 
