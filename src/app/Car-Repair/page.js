@@ -55,52 +55,52 @@ const AcRepair = () => {
     const AskQ = [
         {
             id: 1,
-            heading: " What types of bike repair services do you offer?",
-            content: " We offer a comprehensive range of bike repair services including routine maintenance, engine tune-ups, brake repairs, tire replacements, chain adjustments, electrical repairs, and more."
+            heading: "What types of car repair and services do you offer in Bangalore?",
+            content: " We offer a comprehensive range of car repair and services in Bangalore, including routine maintenance such as oil changes, filter replacements, brake services, engine diagnostics and repairs, electrical system repairs, transmission services, suspension and steering repairs, air conditioning and heating repairs, exhaust system repairs, body and paint repairs, and wheel and tire services."
         },
         {
             id: 2,
-            heading: "How do I know if my bike needs repair? ",
-            content: "Common signs that your bike may need repair include strange noises, difficulty shifting gears, brake problems, sluggish performance, and visible wear and tear. If you notice any of these signs, it's best to schedule a professional inspection."
+            heading: "How quickly can I expect my car to be serviced? ",
+            content: "We understand the importance of prompt service. Depending on the type of service required, we strive to complete repairs and maintenance tasks efficiently. For routine maintenance services, such as oil changes or tire rotations, you can typically expect same-day service. For more extensive repairs, we will provide you with an estimated timeline based on the complexity of the job."
         },
         {
             id: 3,
-            heading: "How do I book your bike repair services?",
-            content: "Booking our services is easy! Simply give us a call at [insert phone number] or visit our website to fill out our online booking form. Our team will assist you in scheduling a convenient appointment for your bike repair."
+            heading: "Are your technicians qualified and experienced?",
+            content: " Yes, our technicians are highly qualified and experienced professionals with expertise in automotive repair and maintenance. They undergo regular training to stay updated on the latest automotive technologies and repair techniques, ensuring that your car receives the highest quality service."
         },
         {
             id: 4,
-            heading: " Are your technicians experienced and qualified?",
-            content: "Yes, our technicians are highly experienced and qualified professionals. They undergo rigorous training and have years of experience in bike repair, ensuring top-notch service and customer satisfaction."
+            heading: "Do you use genuine parts for repairs?",
+            content: "Yes, we believe in using genuine parts for repairs to ensure the longevity and performance of your vehicle. We source parts directly from authorized dealerships or reputable suppliers, guaranteeing the quality and compatibility of the components used in your car."
         },
         {
             id: 5,
-            heading: "Do you provide on-site repair services? ",
-            content: " Yes, we offer on-site repair services for your convenience. Our technicians will come to your location equipped with the necessary tools and equipment to perform the required repairs."
+            heading: " Do you offer warranties on your repair services? ",
+            content: "Yes, we stand behind the quality of our repair services. We offer warranties on both labor and parts for added peace of mind. If you encounter any issues with the repairs performed, simply reach out to us, and we will address them promptly at no additional cost."
         },
         {
             id: 6,
-            heading: "Do you use genuine spare parts for bike repairs?",
-            content: "Absolutely! We believe in using only genuine spare parts to ensure the quality and longevity of our repairs. Rest assured that your bike will be fitted with authentic components during the repair process."
+            heading: "How do I schedule an appointment for car repair and services?",
+            content: "Scheduling an appointment is easy. You can book a service appointment through our website, mobile app, or by calling our customer service hotline. Our friendly staff will assist you in selecting a convenient date and time for your car to be serviced."
         }, {
             id: 7,
-            heading: " How long does a bike repair typically take?",
-            content: "The duration of a bike repair depends on the nature and complexity of the issue. Our technicians will assess the problem and provide you with an estimated timeline for completion during the initial inspection."
+            heading: "Do you offer emergency roadside assistance services? ",
+            content: "Yes, we provide emergency roadside assistance services in Bangalore for situations such as breakdowns, flat tires, battery jumps, and lockouts. Simply give us a call, and our team will dispatch assistance to your location promptly."
         },
         {
             id: 8,
-            heading: "Do you offer warranty or guarantee on your bike repair work?",
-            content: "Yes, we stand behind the quality of our workmanship. We offer a warranty or guarantee on our bike repair services, ensuring that you are satisfied with the results and have peace of mind."
+            heading: "Can you provide estimates for repair costs before starting the work?",
+            content: " Yes, we offer transparent pricing and provide estimates for repair costs upfront. Our goal is to ensure that you have a clear understanding of the expected expenses before any work is performed, so there are no surprises on your final bill."
         },
         {
             id: 9,
-            heading: "Are your bike repair services available in all areas of Bangalore?",
-            content: "Yes, we provide bike repair services across Bangalore and its surrounding areas. Whether you're in the city center or on the outskirts, our team is ready to assist you with your bike repair needs."
+            heading: " What safety measures do you have in place for customers during the COVID-19 pandemic?",
+            content: "We prioritize the safety and well-being of our customers and staff. In accordance with government guidelines, we have implemented enhanced cleaning and sanitization protocols at our facilities. Additionally, our technicians adhere to social distancing guidelines and wear protective equipment while servicing vehicles."
         },
         {
             id: 10,
-            heading: "How can I get a quote for my bike repair? ",
-            content: "To receive a quote for your bike repair, simply contact us via phone, email, or our online inquiry form. Our team will gather information about the issue you're experiencing and provide you with a transparent and competitive quote based on your specific needs."
+            heading: "Do you offer any special promotions or discounts for car repair and services?",
+            content: " Yes, we periodically offer special promotions and discounts on our car repair and services in Bangalore. Be sure to check our website or social media channels for the latest deals and offers."
         },
     ]
 
