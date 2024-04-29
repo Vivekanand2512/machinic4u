@@ -46,7 +46,7 @@ const products = [
     {
         id: 3,
         section: "Our Services",
-        link: [{Title:'AC' ,linking:"/Ac-Repair"},{Title:"Bike Repair",linking:"/Bike-Repair"},{Title:"Carpenter",linking:"/Carpenter"}]
+        link: [{Title:'AC-Repair' ,linking:"/Ac-Repair"},{Title:"Bike Repair",linking:"/Bike-Repair"},{Title:"Car Repair",linking:"/Car-Repair"},{Title:"Carpenter",linking:"/Carpenter"},{Title:"Electrician",linking:"Electrician"}]
     }
 ]
 

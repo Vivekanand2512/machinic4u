@@ -10,10 +10,10 @@ export const metadata = {
     title: "Ac repair",
     description: "ac repair near me",
 }
-const AcRepair = () => {
+const Electrician = () => {
     const AcServicesData = {
-        heading: "Any Types of Electrician SERVICES",
-        Title: "Electrician Service  our mechanic reach at your location.",
+        ServiceHeading: "Any Types of Electrician SERVICES",
+        serviceTitle: "Electrician Service  our mechanic reach at your location.",
         cardData: [
             {
                 heading: "Domestic Electrical Installers",
@@ -172,4 +172,4 @@ const AcRepair = () => {
 
     )
 }
-export default AcRepair;
+export default Electrician;

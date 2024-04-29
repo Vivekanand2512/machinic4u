@@ -3,9 +3,9 @@ import { XMarkIcon } from '@heroicons/react/24/outline'
 import Link from "next/link";
 import Image from 'next/image';
 
+import Drawerdata from "./Drawerdata";
 
-
-const Drawer = ({ children, isOpen, setIsOpen }) => {
+const Drawer = ({isOpen, setIsOpen }) => {
 
     return (
         <main
@@ -37,17 +37,10 @@ const Drawer = ({ children, isOpen, setIsOpen }) => {
                             setIsOpen(false);
                         }} />
                     </header>
-                    <div onClick={() => {
-                        setIsOpen(false);
-                    }}>{children}</div>
+                    <Drawerdata  isOpen={isOpen} setIsOpen={setIsOpen}/>
                 </article>
             </section>
-            <section
-                className="w-screen h-full cursor-pointer "
-                onClick={() => {
-                    setIsOpen(false);
-                }}
-            ></section>
+           
         </main>
     );
 }

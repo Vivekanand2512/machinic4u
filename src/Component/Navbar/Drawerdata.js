@@ -30,7 +30,7 @@ function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
 }
 
-const Data = () => {
+const Data = (isOpen, setIsOpen ) => {
     return (
         <div className="rounded-md max-w-sm w-full mx-auto">
             <div className="flex-1 space-y-4 py-1">
@@ -45,7 +45,7 @@ const Data = () => {
                                         item.current ? 'bg-gray-900 text-purple' : 'text-black hover:bg-gray-700 hover:text-purple',
                                         'block  py-2 rounded-md text-base font-medium'
                                     )}
-                                    aria-current={item.current ? 'page' : undefined}
+                                    aria-current={item.current ? 'page' : undefined} onClick={()=>item?.sublinks==undefined?setIsOpen(false):""}
                                 >
                                     {item.name}
                                 </Link>
@@ -53,7 +53,7 @@ const Data = () => {
                                     <div className=" top-full left-0 bg-white shadow-lg p-2 mt-1 rounded-md hidden subchild">
                                         {item.sublinks.map((sublink) => (
                                             <Link key={sublink.name} href={sublink.href}
-                                                className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded-md">
+                                                className="block px-3 py-2 text-sm text-gray-700 hover:bg-gray-100 rounded-md" onClick={()=>setIsOpen(false)}>
                                                 {sublink.name}
 
                                             </Link>

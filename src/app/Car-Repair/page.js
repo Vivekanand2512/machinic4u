@@ -10,10 +10,12 @@ export const metadata = {
     title: "Ac repair",
     description: "ac repair near me",
 }
-const AcRepair = () => {
+const CarRepair = () => {
     const AcServicesData = {
-        heading: "Any Types of Car  SERVICES",
-        Title: "Cars, like any mechanical marvel, require regular maintenance and occasional repairs to keep them running smoothly and safely. From routine tune-ups to more extensive repairs, there's a wide range of services designed to address various automotive issues. Let's delve into the different types of car repair services:",
+        ServiceHeading:"Any Types of Car  SERVICES",
+      
+
+        serviceTitle: "Cars, like any mechanical marvel, require regular maintenance and occasional repairs to keep them running smoothly and safely. From routine tune-ups to more extensive repairs, there's a wide range of services designed to address various automotive issues. Let's delve into the different types of car repair services:",
         cardData: [
             {
                 heading: "Routine Maintenance:",
@@ -191,4 +193,4 @@ const AcRepair = () => {
 
     )
 }
-export default AcRepair;
+export default CarRepair;

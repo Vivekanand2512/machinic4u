@@ -4,7 +4,7 @@ import Link from 'next/link';
 import React from 'react';
 import { Bars3Icon } from '@heroicons/react/24/outline';
 import Drawer from "./Drawer";
-import Drawerdata from "./Drawerdata";
+
 
 import Image from 'next/image';
 import phoneimage from '../../../public/images/Navbar/phone.svg'
@@ -113,9 +113,9 @@ const Navbar2 = () => {
 
                         {/* DRAWER LINKS DATA */}
 
-                        <Drawer isOpen={isOpen} setIsOpen={setIsOpen}>
-                            <Drawerdata />
-                        </Drawer>
+                        <Drawer isOpen={isOpen} setIsOpen={setIsOpen}>   </Drawer>
+                            
+                     
 
                     </div>
                 </div>
