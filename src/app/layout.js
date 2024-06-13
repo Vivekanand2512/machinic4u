@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <Navbar2></Navbar2>
-        <a href="tel:+91 9880394900" className="bg-danger bottom-0 fixed flex items-center mb-4 mr-4 p-4 right-0 rounded-5 text-white">
+        <a href="tel:+91 9880394900" className="bg-danger bottom-0 fixed flex items-center mb-14 mr-4 p-4 right-0 rounded-5 text-white">
         <FaPhone/>
         </a>
       

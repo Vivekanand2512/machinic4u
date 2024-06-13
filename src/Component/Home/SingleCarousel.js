@@ -2,6 +2,7 @@
 'use client'
 import React from "react";
 import Slider from "react-slick";
+import * as $ from "jquery";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FaAngleLeft } from "react-icons/fa";
@@ -11,6 +12,7 @@ import image2 from '../../../public/images/Slider/image2.jpeg'
 import image3 from '../../../public/images/Slider/image3.jpeg'
 
 export default function SingleCarousel() {
+  let sliderRef = React.useRef(null);
   var settings = {
     dots: false,
     infinite: true,
@@ -44,10 +46,18 @@ export default function SingleCarousel() {
     },
   ];
 
+  const play = () => {
+    sliderRef.slickPlay();
+  };
+  const pause = () => {
+    sliderRef.slickPause();
+  };
+
   return (
     <div className="slider-container">
        <div className="carouselSlider">
-      <Slider {...settings}>
+    
+      <Slider  ref={slider => (sliderRef = slider)} {...settings}>
         {slides.map((slide, index) => (
             <div key={index}>
             <img style={{ height: "500px" }} 
@@ -66,7 +76,16 @@ export default function SingleCarousel() {
           </div>
         ))}
       </Slider>
+      
     </div>
+    <div style={{ textAlign: "center" }}>
+        <button className="button" onClick={play}>
+          Play
+        </button>
+        <button className="button" onClick={pause}>
+          Pause
+        </button>
+        </div>
     </div>
    
   );
